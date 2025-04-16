@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap:10px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+.box{
+
+    background-color: lightblue;
+    border:1px solid;
+    box-shadow: 4px 4px 4px lightblue;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: lightskyblue;
+}
+.winnerdec{
+    text-align: center;
+    margin-top:70px;
+    font-size: 2.5rem;
+}
+.title{
+    text-align: center;
+    font-size: 3rem;
+    background-color: aquamarine;
+    margin:0;
+}
